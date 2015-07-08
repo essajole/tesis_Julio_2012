@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><doc><cesHeader type="Inserte tipo de programa" date="Inserte fecha aqui">
+<fileDesc>
+<titleStmt><respStmt>
+<respType>Inserte tipo de entidad responsable</respType>
+<respName>Nombre de la entidad responsable</respName>
+</respStmt></titleStmt>
+<extent>
+<extNote id="Duracion"> Inserte duracion del programa </extNote>
+<extNote id="SegmentoRecogido"> Inserte el segmento recogido </extNote>
+<extNote id="NumeroInterlocutores"> Inserte total de interlocutores </extNote>
+</extent>
+<sourceDesc>
+<biblStruct><monogr>
+<pubPlace> Inserte lugar </pubPlace>
+</monogr></biblStruct>
+</sourceDesc></fileDesc>
+<group count="Inserte cantidad de participantes">
+<name type="Person" id="Inserte id"> </name>
+</group>
+</cesHeader>
+El <it>Fútbol Club Barcelona</it> (oficialmente en catalán, Futbol Club Barcelona) es una entidad polideportiva de la ciudad de Barcelona, Cataluña, España. Fue fundado como club2 de fútbol el 29 de noviembre de 1899 por doce jóvenes futbolistas aficionados, liderados por el suizo Hans Gamper. El <def typ="2">F. C. Barcelona es conocido popularmente como Barça</def> (abreviación de la pronunciación de «Barcelona» en catalán central) y sus seguidores como «culés»3 (pronunciación del catalán culers); también, y en referencia a sus colores, se utiliza el término «azulgranas», que procede del catalán blaugranes, tal como aparece en su himno, el Cant del Barça, donde en su segunda línea se dice «Som la gent blaugrana» (en castellano, "<mkr>Somos la gente azulgrana</mkr>"). A nivel institucional, el Fútbol Club Barcelona, denomina a sus aficionados como «barcelonistas» y tiene a su servicio, para atender a socios, simpatizantes y público en general, la OAB que significan las siglas de la Oficina de Atención al Barcelonista, donde quien lo solicita es atendido en los idiomas oficiales del club, que son el catalán, el castellano y el inglés.</doc>

@@ -1,0 +1,9 @@
+Glifos
+
+Destripar		200	Acechar
+Triturar		260	
+Furia del tigre		120	forma felina
+
+Fuego feerico		120
+carga feral
+renacer			170

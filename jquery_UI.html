@@ -1,0 +1,217 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd"
+    >
+<html lang="en">
+<head>
+    <title>Aplicacion de etiquetado</title>
+    <link type="text/css" href="css/dot-luv/jquery-ui-1.8.22.custom.css" rel="stylesheet" />
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.8.22.custom.min.js"></script>
+	<script type="text/javascript" src="js/js_tesis.js"></script>
+	
+</head>
+<body>
+    <div id="dialog-register" title="Solicitud de Registro">
+        <form id="registro" method="POST">
+            <fieldset>
+				<table>
+					<tr>	
+						<td><label for="nombre">Nombre</label></td>
+						<td><input type="text" name="nombre" id="nombre" onkeypress="return permite(event,'car');" value="" class="text ui-widget-content ui-corner-all"/></td>
+					</tr>
+					<tr>	
+						<td><label for="apellidos">Apellidos</label></td>
+						<td><input type="text" name="apellidos" id="apellidos" onkeypress="return permite(event,'car');" value="" class="text ui-widget-content ui-corner-all"/></td>
+					</tr>
+					<tr>
+						<td><label for="fecha">Fecha de Nacimiento</label></td>
+						<td><input type="text" id="fecha" name="fecha" onkeypress="return permite(event,'num');" class="text ui-widget-content ui-corner-all" /></td>
+					<tr>
+					<tr>
+						<td><label for="correo">Correo</label></td>
+						<td><input type="text" name="correo" id="correo" onkeypress="return permite(event,'cor');" class="text ui-widget-content ui-corner-all"/></td>
+					</tr>
+					<tr>	
+						<td><label for="usuario">Usuario</label></td>
+						<td><input type="text" name="usuario" id="usuario" value="" onkeypress="return limita(12);" class="text ui-widget-content ui-corner-all"/></td>
+					</tr>
+					<tr>	
+						<td><label for="clave">Clave</label></td>
+						<td><input type="password" name="clave" id="clave" onkeypress="return limita(12);" value="" class="text ui-widget-content ui-corner-all"/></td>
+					</tr>
+					</table>
+            </fieldset>
+        </form>
+    </div>
+    <div id="result"></div>
+	
+    <div id="dialog-form" title="Iniciar Sesion">
+        <form id="logueo">
+            <fieldset>
+				<table>
+					<tr>
+						<td><label for="usuario">Usuario</label></td>
+						<td><input type="text" name="usuario1" id="usuario1" onkeypress="return limita(12);" class="text ui-widget-content ui-corner-all"/></td>
+					</tr>
+					<tr>
+						<td><label for="clave">Clave</label></td>
+						<td><input type="password" name="clave1" id="clave1" onkeypress="return limita(12);" value="" class="text ui-widget-content ui-corner-all"/></td>
+					</tr>
+				</table>
+            </fieldset>
+        </form>
+    </div>
+    <button id="registrar">Solicitud de Registro</button>
+    <button id="loguear">Iniciar Sesion</button>
+	
+	
+<!-- Aqui comienzan lo de las etiquetas -->
+<form name="form1" action="">
+<div id="diiv">
+<textarea  id="texto" rows="20" cols="100" name="texto"  onclick="devPos()" class="text ui-widget-content ui-corner-all">
+</textarea>
+</div>
+</form>
+
+<div class="demo">
+
+<div id="tabs">
+	<ul>
+		<li><a href="#tabs-1">Tipograficas</a></li>
+		<li><a href="#tabs-2">De contextos con Definiciones</a></li>
+		<li><a href="#tabs-3">De colaboracion con Definiciones</a></li>
+	</ul>
+	<div id="tabs-1">
+		<ul>
+			<li><button id="cursiva" class="etiq_bot" value="<it></it>">Cursiva</button><button id="cursiva_st" class="icono_st" title="Estructura"></button><button id="cursiva_ex" class="icono_ex" title="Ejemplo"></button></li>
+			<li><button id="negritas" class="etiq_bot" value="<b></b>" >Negritas</button><button id="negritas_st" class="icono_st" title="Estructura"></button><button id="negritas_ex" class="icono_ex" title="Ejemplo"></button></li>
+			<li><button id="comillas" class="etiq_bot" value="<invcomm></invcomm>">Comillas</button><button id="comillas_st" class="icono_st" title="Estructura"></button><button id="comillas_ex" class="icono_ex" title="Ejemplo"></button></li>
+		</ul>
+	</div>
+	<div id="tabs-2">
+		<ul>
+			<li><button id="vcfd" class="etiq_bot" value="<defcopvb lemma &quot;&quot; = pos &quot;&quot;></defcopvb>">Verbo Copulativo con funcion definitoria</button><button id="vcfd_st" class="icono_st" title="Estructura"></button><button id="vcfd_ex" class="icono_ex" title="Ejemplo"></button></li>
+			<li><button id="vmfd" class="etiq_bot" value="<defmetalvb lemma &quot;&quot; = pos &quot;&quot;></defmetalvb>">Verbo Metalinguistico con funcion definitoria</button><button id="vmfd_st" class="icono_st" title="Estructura"></button><button id="vmfd_ex" class="icono_ex" title="Ejemplo"></button></li>
+			<li><button id="definiensd" class="etiq_bot" value="<rdefiniens></rdefiniens>">Definiens orientada a la Derecha</button><button id="definiensd_st" class="icono_st" title="Estructura"></button><button id="definiensd_ex" class="icono_ex" title="Ejemplo"></button></li>
+			<li><button id="definiensi" class="etiq_bot" value="<ldefiniens></ldefiniens>">Definiens orientada a la Izquierda</button><button id="definiensi_st" class="icono_st" title="Estructura"></button><button id="definiensi_ex" class="icono_ex" title="Ejemplo"></button></li>
+			<li><button id="definicion" class="etiq_bot" value="<def typ = &quot;&quot;></def>">Definicion</button><button id="definicion_st" class="icono_st" title="Estructura"></button><button id="definicion_ex" class="icono_ex" title="Ejemplo"></button></li>
+			<li><button id="etnl" class="etiq_bot" value="<defop = &quot;&quot;></defop>">Elementos tipograficos No linguisticos</button><button id="etnl_st" class="icono_st" title="Estructura"></button><button id="etnl_ex" class="icono_ex" title="Ejemplo"></button></li>
+		</ul>
+	</div>
+	<div id="tabs-3">
+		<ul>
+			<li><button id="reform" class="etiq_bot" value="<mkr></mkr>">Reformulacion</button><button id="reform_st" class="icono_st" title="Estructura"></button><button id="reform_ex" class="icono_ex" title="Ejemplo"></button></li>
+			<li><button id="ejem" class="etiq_bot" value="<examkr  &quot;&quot;><examkr>">Ejemplificacion</button><button id="ejem_st" class="icono_st" title="Estructura"></button><button id="ejem_ex" class="icono_ex" title="Ejemplo"></button></li>
+			<li><button id="sino" class="etiq_bot" value="<syno></syno>">Conjucion o Relacion de sinonimia</button><button id="sino_st" class="icono_st" title="Estructura"></button><button id="sino_ex" class="icono_ex" title="Ejemplo"></button></li>
+		</ul>
+	</div>
+</div>
+
+</div>
+
+
+<div id="dialog1" title="Estructura">
+	<p>&lt;it&gt; ... &lt;/it&gt;</p>
+</div>
+
+<div id="dialog2" title="Estructura">
+	<p>&lt;b&gt; ... &lt;/b&gt;</p>
+</div>
+
+<div id="dialog3" title="Estructura">
+	<p>&lt;invcomm&gt; ... &lt;/invcomm&gt;</p>
+</div>
+
+<div id="dialog4" title="Estructura">
+	<p>&lt;defcopvb lemma“verbo en infinitivo”= pos “etiqueta EAGLES”&gt; ... &lt;/defcopvb&gt;</p>
+</div>
+
+<div id="dialog5" title="Estructura">
+	<p>&lt;defmetalvb lemma“verbo en infinitivo”= pos “etiqueta EAGLES”&gt; ... &lt;/defmetalvb&gt;</p>
+</div>
+
+<div id="dialog6" title="Estructura">
+	<p>&lt;rdefiniens&gt; ... &lt;/rdefiniens&gt;</p>
+</div>
+
+<div id="dialog7" title="Estructura">
+	<p>&lt;ldefiniens&gt; ... &lt;/ldefiniens&gt;</p>
+</div>
+
+<div id="dialog8" title="Estructura">
+	<p>&lt;def  typ valor = “1-4”&gt; ... &lt;/def&gt;<br/>
+
+Valor: <ul><li> “1” enciclopédica intensional </li>
+           <li> “2” enciclopéidica extensional </li>
+           <li> “3” funcional </li>
+           <li> “4” sinonímica </li>
+		</ul>
+</p>
+</div>
+<div id="dialog9" title="Estructura">
+	<p>&lt;defop valor = “elemento”&gt; ... &lt;/defop&gt;</p>
+</div>
+
+<div id="dialog10" title="Estructura">
+	<p>&lt;mkr&gt; ... &lt;/mkr&gt;</p>
+</div>
+
+<div id="dialog11" title="Estructura">
+	<p>&lt;examkr  mkr = “ * ”&gt; ... &lt;examkr&gt; <br/> * se indica el marcador</p>
+</div>
+
+<div id="dialog12" title="Estructura">
+	<p>&lt;syno&gt; ... &lt;/syno&gt;</p>
+</div>
+
+<div id="dialog13" title="Ejemplo de ">
+	<p></p>
+</div>
+
+<div id="dialog14" title="Ejemplo de ">
+	<p value=""></p>
+</div>
+
+<div id="dialog15" title="Ejemplo de ">
+	<p value=""></p>
+</div>
+
+<div id="dialog16" title="Ejemplo de ">
+	<p value=""></p>
+</div>
+
+<div id="dialog17" title="Ejemplo de ">
+	<p value=""></p>
+</div>
+
+<div id="dialog18" title="Ejemplo de ">
+	<p value=""></p>
+</div>
+
+<div id="dialog19" title="Ejemplo de ">
+	<p value=""></p>
+</div>
+
+<div id="dialog20" title="Ejemplo de ">
+	<p value=""></p>
+</div>
+
+<div id="dialog21" title="Ejemplo de ">
+	<p value=""></p>
+</div>
+
+<div id="dialog22" title="Ejemplo de ">
+	<p value=""></p>
+</div>
+
+<div id="dialog23" title="Ejemplo de ">
+	<p value=""></p>
+</div>
+
+<div id="dialog24" title="Ejemplo de ">
+	<p value=""></p>
+</div>
+
+
+</body>
+</html>

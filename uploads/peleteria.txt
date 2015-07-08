@@ -1,0 +1,38 @@
+0057 x Restos de cuero estropeado
+0115 x Hilo burdo 
+0015 x Pellejo medio
+0075 x Sal
+0260 x Cuero ligero (3 restos)
+0130 x Cuero medio (4 cueros ligeros)
+0115 x Hilo refinado
+0030 x Tinte gris
+0020 x Pellejo pesado
+0180 x Cuero pesado (5 Cuero medio)
+0410 x Cuero grueso (5 Cuero pesado)
+0145 x Hilo de seda (puedes conseguirlo en vendedores)
+0410 x Cuero basto (5 Cuero grueso)
+0035 x Tinte negro
+0092 x Hilo rúnico (puedes conseguirlo en vendedores)
+0100 x Restos de cuero de pellejo nudoso
+0307 x Cuero de pellejo nudoso (puedes fabricarlos con 1535 x Restos de cuero de pellejo nudoso o recolectarlos)
+0028 x Escamas viles
+0950 x Cuero boreal (Más de 700 de estos los usarás para hacer Cuero boreal pesado aunque necesitarás muchos menos si consigues Pelaje ártico)
+0100 x Agua cristalizada (Necesitarás muchas menos si consigues Pelaje ártico)
+0005 x Agua eterna
+0050 x Trocitos de cuero salvaje
+1145 x Cuero salvaje
+0035 x Hilo de eternio (puedes conseguirlo en vendedores)
+0056 x Fuego volátil
+0006 x Aire volátil
+0036 x Agua volátil
+0030 x Tierra volátil
+
+
+Cuero ligero 343 + 57 = 400 (140)
+Cuero Medio  316 + 35 = 351 (231)
+Cuero Pesado 171 + 46 = 217 (37)
+Cuero Grueso 431 + 7  = 438 (28)
+Cuero Basto  416 + 5  = 421 (11)
+
+restos pellejo nudoso	100 + 284
+pellejo nudoso		104 + 56

@@ -1,0 +1,177 @@
+body{
+	font: 11px/16px normal Helvetica, sans-serif, Arial;
+	margin: 0;
+	padding: 0;
+	background: #ccffcc url("../images/body.jpg") repeat-y top center;
+}
+
+#container{
+
+	margin: 0 auto;
+	width: 1000px;
+}
+
+#header{
+	height:120px;
+	background: #99ccff url("../images/header.jpg") no-repeat top center;
+	
+}
+
+#login{
+	border: 1px solid #000000;
+	background: #111111 url(dot-luv/images/ui-bg_gloss-wave_20_111111_500x100.png) 50% top repeat-x;
+	color: #d9d9d9;
+	margin: 10px;
+	width: 300px;
+	border-radius:20px;
+	padding:20px;
+	text-align: center;
+	box-shadow: 0 0 25px #000;
+}
+
+#login input{
+	border-radius:6px;
+	margin-bottom: 20px;
+	width: 180px;
+	padding: 4px;
+}
+
+#content{
+	padding: 10px;
+}
+
+#footer{
+	height:52px;
+	background: #99ccff url("../images/footer.jpg") no-repeat top center;
+}
+
+#texto{
+	width:550px;
+	height:400px;
+}
+
+#accordion{
+	margin: 28px 0 0 0;
+	width: 410px;
+	float: right;
+}
+
+.tabs_2{
+	max-height: 340px;
+	margin:0;
+	padding:0;
+	background: #2f98c4;
+}
+
+.tabs_3{
+	background: white url("../images/degradado_azul.png") repeat-x;
+	border-radius: 0 0 5px 5px;
+}
+
+#tabs{
+	
+}
+
+#left{
+	width: 48%;
+}
+
+#load_file{
+	height: 28px;
+}
+
+#menu{
+	background:#ccffcc url("dot-luv/images/ui-bg_gloss-wave_75_2191c0_500x100.png") center repeat-x;
+	padding: 1px;
+}
+#menu ul{}
+#menu ul li{
+	display:inline;
+	padding: 6px 10px;
+	margin: 5px;
+	border-radius: 5px;
+	border: 1px solid #93c163;
+	background: #93c163 url("dot-luv/images/ui-bg_gloss-wave_50_6eac2c_500x100.png") center;
+}
+#menu ul li:hover{
+	border: 1px solid #93c163;
+	background: #93c163;
+}
+#menu ul li a{
+	text-decoration: none;
+	color:white;
+}
+
+#menu_{
+	padding: 1px;
+}
+#menu_ ul{}
+#menu_ ul li{
+	display:inline;
+	padding: 6px ;
+	border-radius: 5px;
+	border: 1px solid #93c163;
+	background: #93c163 url("dot-luv/images/ui-bg_gloss-wave_50_6eac2c_500x100.png") center;
+}
+
+#menu_ ul li a{
+	text-decoration: none;
+	color:white;
+}
+
+fieldset{
+	border: none;
+}
+
+table{
+	background: white;
+	margin: 20px;
+	border-top: 1px solid #666;
+	border-left: 1px solid #666;
+	border-spacing: 0px;
+	box-shadow: 2px 2px 25px #888;
+}
+
+table tr{
+	padding:0;
+	margin:0;
+}
+
+
+table tr th{
+	background: #ccc;
+	border-bottom: 1px solid #666;
+	border-right: 1px solid #666;
+	padding: 8px 10px;
+	margin:0;
+}
+
+table tr td{
+	border-bottom: 1px solid #666;
+	border-right: 1px solid #666;
+	padding: 2px 15px;
+	margin:0;
+}
+
+table tr.par{
+	background: #dddddd;
+}
+
+table tr td a{
+	text-decoration:none;
+}
+
+fieldset table{
+	margin: 0px;
+	background: none;
+	box-shadow: none;
+	border: none;
+}
+fieldset table tr{
+	border: none;
+}
+fieldset table tr td{
+	border: none;
+}
+
+

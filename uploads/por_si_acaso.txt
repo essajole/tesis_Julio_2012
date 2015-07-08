@@ -1,0 +1,37 @@
+<div id="tabs-4">
+							<fieldset>
+							<table>
+								<tr><td><button id="ces_header" class="etiq_bot">Ces Cabecera</button></td><td><button id="ces_header_st" class="icono_st" title="Estructura"></button></td></tr>
+								<tr><td><button id="file_desc" class="etiq_bot">Desc. Archivo</button></td><td><button id="file_desc_st" class="icono_st" title="Estructura"></button></td></tr>
+								<tr><td><button id="title_stmt" class="etiq_bot">Desc. Titulo</button></td><td><button id="title_stmt_st" class="icono_st" title="Estructura"></button></td></tr>
+								<tr><td><button id="h_title" class="etiq_bot">Titulo</button></td><td><button id="h_title_st" class="icono_st" title="Estructura"></button></td></tr>
+								<tr><td><button id="publication_stmt" class="etiq_bot">Publicacion</button></td><td><button id="publication_stmt_st" class="icono_st" title="Estructura"></button></td></tr>
+								<tr><td><button id="pub_address" class="etiq_bot">Lugar Publicacion</button></td><td><button id="pub_address_st" class="icono_st" title="Estructura"></button></td></tr>
+								<tr><td><button id="pub_date" class="etiq_bot">Fecha Publicacion</button></td><td><button id="pub_date_st" class="icono_st" title="Estructura"></button></td></tr>
+							</table>
+							</fieldset>
+						</div>
+						<div id="tabs-5">
+							<fieldset>
+								<table>
+									<tr><td><button id="source_desc" class="etiq_bot">Desc. Fuente</button></td><td><button id="source_desc_st" class="icono_st" title="Estructura"></button></td></tr>
+									<tr><td><button id="bibl_struct" class="etiq_bot">Bibliografia</button></td><td><button id="bibl_struct_st" class="icono_st" title="Estructura"></button></td></tr>
+									<tr><td><button id="monogr" class="etiq_bot">Monografico</button></td><td><button id="monogr_st" class="icono_st" title="Estructura"></button></td></tr>
+									<tr><td><button id="analytic" class="etiq_bot">Analitico</button></td><td><button id="analytic_st" class="icono_st" title="Estructura"></button></td></tr>
+									<tr><td><button id="h_author" class="etiq_bot">Autor</button></td><td><button id="h_author_st" class="icono_st" title="Estructura"></button></td></tr>
+									<tr><td><button id="imprint" class="etiq_bot">Imprenta</button></td><td><button id="imprint_st" class="icono_st" title="Estructura"></button></td></tr>
+									<tr><td><button id="pub_place" class="etiq_bot">Lugar</button></td><td><button id="pub_place_st" class="icono_st" title="Estructura"></button></td></tr>
+								</table>
+							</fieldset>
+						</div>
+						<div id="tabs-6">
+							<fieldset>
+								<table>
+									<tr><td><button id="creation" class="etiq_bot">Creacion</button></td><td><button id="creation_st" class="icono_st" title="Estructura"></button></td></tr>
+									<tr><td><button id="lang_usage" class="etiq_bot">Uso del Lenguaje</button></td><td><button id="lang_usage_st" class="icono_st" title="Estructura"></button></td></tr>
+									<tr><td><button id="language" class="etiq_bot">Idioma</button></td><td><button id="language_st" class="icono_st" title="Estructura"></button></td></tr>
+									<tr><td><button id="wsd_usage" class="etiq_bot">Conj. de Caracteres</button></td><td><button id="wsd_usage_st" class="icono_st" title="Estructura"></button></td></tr>
+									<tr><td><button id="writing_system" class="etiq_bot">Sistema de Escritura</button></td><td><button id="writing_system_st" class="icono_st" title="Estructura"></button></td></tr>
+								</table>
+							</fieldset>
+						</div>
